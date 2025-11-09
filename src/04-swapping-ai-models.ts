@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 dotenv.config({ path: "../.env", quiet: true });
 
 const googleModel = google("gemini-2.5-flash");
-const anthropicModel = anthropic("claude-3-7-sonnet-20250219");
+const anthropicModel = anthropic("claude-sonnet-4-5");
 const openAIModel = openai("gpt-5");
 
 async function answerMyQuestion(prompt: string, model: LanguageModel) {
