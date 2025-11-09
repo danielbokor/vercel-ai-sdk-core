@@ -7,12 +7,12 @@ dotenv.config({ path: "../.env", quiet: true });
 const model = google("gemini-2.5-pro");
 
 async function answerMyQuestion(prompt: string) {
-  const { text } = await generateText({
+  const result = await generateText({
     model,
     prompt,
   });
 
-  return text;
+  return result.text;
 }
 
 const answer = await answerMyQuestion("what is love?");
