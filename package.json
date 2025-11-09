@@ -1,0 +1,11 @@
+{
+  "name": "vercel-ai-sdk-core",
+  "version": "1.0.0",
+  "description": "Vercel AI SDK Core examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Bokor contact@danielbokor.com",
+  "license": "ISC"
+}
